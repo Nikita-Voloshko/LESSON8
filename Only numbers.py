@@ -6,7 +6,8 @@ i = ''
 while i != "stop":
     user = input('Введите число в список.')
     try:
-        int(user)
+        if user.isdecimal() != True:
+            raise Only_Numbers('Только числа.')
     except Only_Numbers:
         print("Ошибка. Это не число")
     else:
