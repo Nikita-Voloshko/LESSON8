@@ -9,7 +9,7 @@ number1 = int(input('Введите делимое '))
 number2 = int(input('Введите делитель '))
 try:
     if (number2 == 0):
-        raise Dev_Error("Ошибка деления на 0")
+        raise Dev_Error('Ошибка деления на 0')
 except ValueError:
     print("Error type of value!")
 else:
