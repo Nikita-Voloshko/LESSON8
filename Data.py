@@ -1,6 +1,6 @@
 from datetime import datetime
 class Data():
-    month = ''
+    month = ""
     @classmethod
     def __init__(self, month):
         # self.data = datetime.strptime(data, '%d')
